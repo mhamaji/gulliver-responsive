@@ -89,6 +89,15 @@ body {
   overflow: hidden;
 }
 
+.page-title {
+  margin-top: 140px;
+  margin-bottom: 16px;
+}
+
+.page-subtitle {
+  margin: 24px 0;
+}
+
 @media screen and (max-width: 1024px) {
   .content-card {
     flex-direction: column;
