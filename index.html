@@ -12,262 +12,327 @@
   />
 </head>
 <body>
-  <div class="gulliver-navbar">
-    <h1>
-      Viajante
-      <i class="fa-regular fa-compass"></i>
-      Gulliver
-    </h1>
-  </div>
+  <nav class="gulliver-navbar">
+    <a aria-label="Link para início da página." href="/">
+      <h1>
+        Viajante
+        <span class="fa-regular fa-compass"></span>
+        Gulliver
+      </h1>
+    </a>
+    <div>
+      <a aria-label="Link para seção de estadias para turismo." href="#turismo">turismo</a>
+      <a aria-label="Link para seção de estadias para trabalho." href="#trabalho">trabalho</a>
+    </div>
+  </nav>
   <div class="container">
     <h1 class="page-title">
-      São Paulo - Onde ficar? 🤔
+      <span class="highlight-title">São Paulo</span>
     </h1>
-    <div class="page-subtitle">
-      <h2><i class="fa-solid fa-binoculars"></i> Turismo</h2>
+    <p><span class="fa-solid fa-bed"></span> Opções de estadia - Onde ficar? 🤔</p>
+    <div class="page-subtitle" id="turismo">
+      <h2><span class="fa-solid fa-binoculars"></span> Turismo</h2>
       <p>Boas opções para conhecer SP :)</p>
     </div>
     <div class="content-card">
-      <div class="image-grid">
-        <img src="./assets/ibis-1.jpg" class="image-resize image-large" alt="fachada hotel ibis styles Anhembi">
-        <img src="./assets/ibis-2.jpg" class="image-resize" alt="quarto do hotel ibis styles Anhembi">
-        <img src="./assets/ibis-3.jpg" class="image-resize" alt="banheiro do hotel ibis styles Anhembi">
-        <img src="./assets/ibis-4.jpg" class="image-resize" alt="sala de reunião do hotel ibis styles Anhembi">
-        <img src="./assets/ibis-5.jpg" class="image-resize" alt="drink no hotel ibis styles Anhembi">
+      <div class="image-grid"  role="figure" aria-label="Mosaico de fotos do hotel ibis Styles Anhembi.">
+        <img src="./assets/ibis-1.jpg" class="image-resize image-large" alt="Fachada hotel ibis Styles Anhembi.">
+        <img src="./assets/ibis-2.jpg" class="image-resize" alt="Quarto do hotel ibis Styles Anhembi.">
+        <img src="./assets/ibis-3.jpg" class="image-resize" alt="Banheiro do hotel ibis Styles Anhembi.">
+        <img src="./assets/ibis-4.jpg" class="image-resize" alt="Sala de reunião do hotel ibis Styles Anhembi.">
+        <img src="./assets/ibis-5.jpg" class="image-resize" alt="Drink no hotel ibis Styles Anhembi.">
       </div>
       <section class="section-info">
-        <h1>ibis Styles São Paulo Anhembi</h1>
+        <h2>ibis Styles São Paulo Anhembi</h2>
         <h3>Av. Cruzeiro do Sul, 1709 - Santana, São Paulo - SP, 02031-000</h3>
         <p>
           Avaliação dos usuários:
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-regular fa-star"></i>
+          <figure aria-label="Avaliação de 4 de 5 estrelas para o hotel ibis Styles Anhembi.">
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-regular fa-star"></span>
+          </figure>
         </p>
 
-        <a href="https://all.accor.com/hotel/9596/index.pt-br.shtml">Visite o site</a>
+        <a aria-label="Link para página do hotel ibis Styles São Paulo Anhembi" href="https://all.accor.com/hotel/9596/index.pt-br.shtml">Visite o site</a>
         <h3>Avaliações</h3>
-        
-        <p>“Café da manhã excepcional, superou todas as expectativas; ao lado do metrô, relativamente próximo de lugares turísticos e centros de eventos; fora os quartos e atendimentos nota 10!”</p>
-        <p>- Carvalho</p>
-        
-        <p>“Tem uma ótima localização, literalmente do lado da estação Portuguesa-Tietê. Limpo, atendimento muito bom, e café da manhã caprichado.”</p>
-        <p>- Mayra</p>
-        
-        <p>“Camas confortáveis e decoração temática muito legal”</p>
-        <p>- Marcus</p>
+
+        <ul aria-label="Lista de avaliações de pessoas usuárias sobre o hotel ibis Styles Anhembi.">
+          <li>
+            <p>“Café da manhã excepcional, superou todas as expectativas; ao lado do metrô, relativamente próximo de lugares turísticos e centros de eventos; fora os quartos e atendimentos nota 10!”</p>
+            <p>- Carvalho</p>
+          </li>
+          <li>
+            <p>“Tem uma ótima localização, literalmente do lado da estação Portuguesa-Tietê. Limpo, atendimento muito bom, e café da manhã caprichado.”</p>
+            <p>- Mayra</p>
+          </li>
+          <li>
+            <p>“Camas confortáveis e decoração temática muito legal”</p>
+            <p>- Marcus</p>
+          </li>
+        </ul>
       </section>
     </div>
 
     <div class="content-card">
-      <div class="image-grid">
-        <img src="./assets/comfort-1.jpg" class="image-resize image-large" alt="fachada hotel comfort Ibirapuera">
-        <img src="./assets/comfort-2.jpg" class="image-resize" alt="quarto do hotel comfort Ibirapuera">
-        <img src="./assets/comfort-3.jpg" class="image-resize" alt="piscina do hotel comfort Ibirapuera">
-        <img src="./assets/comfort-4.jpg" class="image-resize" alt="café da manhã do hotel comfort Ibirapuera">
-        <img src="./assets/comfort-5.jpg" class="image-resize" alt="academia do hotel comfort Ibirapuera">
+      <div class="image-grid"  role="figure" aria-label="Mosaico de fotos do hotel Comfort Ibirapuera.">
+        <img src="./assets/comfort-1.jpg" class="image-resize image-large" alt="Fachada hotel Comfort Ibirapuera.">
+        <img src="./assets/comfort-2.jpg" class="image-resize" alt="Quarto do hotel Comfort Ibirapuera.">
+        <img src="./assets/comfort-3.jpg" class="image-resize" alt="Piscina do hotel Comfort Ibirapuera.">
+        <img src="./assets/comfort-4.jpg" class="image-resize" alt="Café da manhã do hotel Comfort Ibirapuera.">
+        <img src="./assets/comfort-5.jpg" class="image-resize" alt="Academia do hotel Comfort Ibirapuera.">
       </div>
       <section class="section-info">
-        <h1>Comfort Ibirapuera</h1>
+        <h2>Comfort Ibirapuera</h2>
         <h3>Av. Sabiá, 825 - Indianópolis, São Paulo - SP, 04515-001</h3>
         <p>
           Avaliação dos usuários:
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-regular fa-star"></i>
+          <figure aria-label="Avaliação de 4 de 5 estrelas para o hotel Comfort Ibirapuera.">
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-regular fa-star"></span>
+          </figure>
         </p>
 
-        <a href="https://www.reserveatlantica.com.br/hotel/comfort-ibirapuera">Visite o site</a>
+        <a aria-label="Link para página do hotel Comfort Ibirapuera." href="https://www.reserveatlantica.com.br/hotel/comfort-ibirapuera">Visite o site</a>
         <h3>Avaliações</h3>
+
+        <ul aria-label="Lista de avaliações de pessoas usuárias sobre o hotel Comfort Ibirapuera.">
+          <li>
+            <p>“Localização muito boa em frente a estação de metrô Moema, 10 minutos do shopping ibirapuera andando, perto do mercado Carrefour express”</p>
+            <p>- Catherine</p>
+          </li>
+          <li>
+            <p>“A localização é maravilhosa. Hotel mto confortável.”</p>
+            <p>- Renata</p>
+          </li>
+          <li>
+            <p>“Nós amamos demais a localização (na frente do metro literalmente) e conforto do hotel, se tornando um excelente custo-beneficio.”</p>
+            <p>- Veruska</p>
+          </li>
+        </ul>
         
-        <p>“Localização muito boa em frente a estação de metrô Moema, 10 minutos do shopping ibirapuera andando, perto do mercado Carrefour express”</p>
-        <p>- Catherine</p>
         
-        <p>“A localização é maravilhosa. Hotel mto confortável.”</p>
-        <p>- Renata</p>
         
-        <p>“Nós amamos demais a localização (na frente do metro literalmente) e conforto do hotel, se tornando um excelente custo-beneficio.”</p>
-        <p>- Veruska</p>
       </section>
     </div>
 
     <div class="content-card">
-      <div class="image-grid">
-        <img src="./assets/bluetree-1.jpg" class="image-resize image-large" alt="fachada hotel bluetree Morumbi">
-        <img src="./assets/bluetree-2.jpg" class="image-resize" alt="quarto do hotel bluetree Morumbi">
-        <img src="./assets/bluetree-3.jpg" class="image-resize" alt="café da manhã do hotel bluetree Morumbii">
-        <img src="./assets/bluetree-4.jpg" class="image-resize" alt="academia do hotel bluetree Morumbi">
-        <img src="./assets/bluetree-5.jpg" class="image-resize" alt="piscina do hotel bluetree Morumbi">
+      <div class="image-grid"  role="figure" aria-label="Mosaico de fotos do hotel Blue Tree Morumbi.">
+        <img src="./assets/bluetree-1.jpg" class="image-resize image-large" alt="Fachada hotel Blue Tree Morumbi.">
+        <img src="./assets/bluetree-2.jpg" class="image-resize" alt="Quarto do hotel Blue Tree Morumbi.">
+        <img src="./assets/bluetree-3.jpg" class="image-resize" alt="Café da manhã do hotel Blue Tree Morumbi.">
+        <img src="./assets/bluetree-4.jpg" class="image-resize" alt="Academia do hotel Blue Tree Morumbi.">
+        <img src="./assets/bluetree-5.jpg" class="image-resize" alt="Piscina do hotel Blue Tree Morumbi.">
       </div>
       <section class="section-info">
-        <h1>Blue Tree Premium Morumbi</h1>
+        <h2>Blue Tree Premium Morumbi</h2>
         <h3>Av. Roque Petroni Júnior, 1000 - Vila Gertrudes, São Paulo - SP, 04707-000</h3>
         <p>
           Avaliação dos usuários:
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
+          <figure aria-label="Avaliação de 3 de 5 estrelas para o hotel Blue Tree Morumbi.">
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-regular fa-star"></span>
+            <span class="fa-regular fa-star"></span>
+          </figure>
         </p>
 
-        <a href="https://www.bluetree.com.br/hotel/blue-tree-premium-morumbi/">Visite o site</a>
+        <a aria-label="Link para página do hotel Blue Tree Premium Morumbi." href="https://www.bluetree.com.br/hotel/blue-tree-premium-morumbi/">Visite o site</a>
         <h3>Avaliações</h3>
-        
-        <p>“Café da manhã excelente com muita variedade, ótimo atendimento dos funcionários, quarto de tamanho bom com cama confortável e vista incrível.”</p>
-        <p>- Rachel</p>
-        
-        <p>“Atenciosos, localização ímpar, café da manhã e buffet do jantar excelentes.”</p>
-        <p>- Elza</p>
-        
-        <p>“O espaço do quarto, o café da manhã com muitas variedades, a localização do hotel, a equipe de atendimento. O estacionamento, embora não esteja incluído na diária, é junto ao hotel.”</p>
-        <p>- Sizenando</p>
+
+        <ul aria-label="Lista de avaliações de pessoas usuárias sobre o hotel Blue Tree Morumbi.">
+          <li>
+            <p>“Café da manhã excelente com muita variedade, ótimo atendimento dos funcionários, quarto de tamanho bom com cama confortável e vista incrível.”</p>
+            <p>- Rachel</p>
+          </li>
+          <li>
+            <p>“Atenciosos, localização ímpar, café da manhã e buffet do jantar excelentes.”</p>
+            <p>- Elza</p>
+          </li>
+          <li>
+            <p>“O espaço do quarto, o café da manhã com muitas variedades, a localização do hotel, a equipe de atendimento. O estacionamento, embora não esteja incluído na diária, é junto ao hotel.”</p>
+            <p>- Sizenando</p>
+          </li>
+        </ul>
       </section>
     </div>
-    <div class="page-subtitle">
-      <h2><i class="fa-solid fa-briefcase"></i> Trabalho</h2>
+    <div class="page-subtitle" id="trabalho">
+      <h2><span class="fa-solid fa-briefcase"></span> Trabalho</h2>
       <p>Opções para quem quer focar no(s) trabalho/negócios</p>
     </div>
 
     <div class="content-card">
-      <div class="image-grid">
-        <img src="./assets/mercure-1.jpg" class="image-resize image-large" alt="fachada hotel mercure Pamplona">
-        <img src="./assets/mercure-2.jpg" class="image-resize" alt="quarto do hotel mercure Pamplona">
-        <img src="./assets/mercure-3.jpg" class="image-resize" alt="café da manhã do hotel mercure Pamplona">
-        <img src="./assets/mercure-4.jpg" class="image-resize" alt="academia do hotel mercure Pamplona">
-        <img src="./assets/mercure-5.jpg" class="image-resize" alt="piscina do hotel mercure Pamplona">
+      <div class="image-grid"  role="figure" aria-label="Mosaico de fotos do hotel Mercure Pamplona.">
+        <img src="./assets/mercure-1.jpg" class="image-resize image-large" alt="Fachada hotel Mercure Pamplona.">
+        <img src="./assets/mercure-2.jpg" class="image-resize" alt="Quarto do hotel Mercure Pamplona.">
+        <img src="./assets/mercure-3.jpg" class="image-resize" alt="Café da manhã do hotel Mercure Pamplona.">
+        <img src="./assets/mercure-4.jpg" class="image-resize" alt="Academia do hotel Mercure Pamplona.">
+        <img src="./assets/mercure-5.jpg" class="image-resize" alt="Piscina do hotel Mercure Pamplona.">
       </div>
       <section class="section-info">
-        <h1>Mercure São Paulo Pamplona Hotel</h1>
+        <h2>Mercure São Paulo Pamplona Hotel</h2>
         <h3>R. Pamplona, 1315 - Jardim Paulista, São Paulo - SP, 01405-002</h3>
         <p>
           Avaliação dos usuários:
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-regular fa-star"></i>
+          <figure aria-label="Avaliação de 4 de 5 estrelas para o hotel Mercure Pamplona.">
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-regular fa-star"></span>
+          </figure>
         </p>
 
-        <a href="https://www.bluetree.com.br/hotel/blue-tree-premium-morumbi/">Visite o site</a>
+        <a aria-label="Link para página do hotel Mercure Pamplona." href="https://all.accor.com/hotel/6284/index.pt-br.shtml">Visite o site</a>
         <h3>Avaliações</h3>
         
-        <p>"Tudo perfeito, desde a recepção, limpeza, café da manhã e estacionamento. recomento a qualquer um em passeio com família ou a trabalho. Não tenho o que me queixar, apenas recomendar. localização excelente."</p>
-        <p>- Leonardo</p>
-        
-        <p>"O hotel está muito bem localizado em Pinheiros. Um dos melhores restaurantes de São Pulo está no mesmo quarteirão.
-          O tamanho do apartamento também é muito bom. Seria desejavel mais atenção aos detalhes."</p>
-        <p>- Robson</p>
-        
-        <p>"Quarto espaçoso, cama confortável, bom espaço para acomodar o pet, café da manhã bom, funcionários muito bem receptivos, ducha ótima. A localização é ótima tem tudo que precisar a poucos metros de distância ou caminhando alguns minutinhos. Fácil para se deslocar p qualquer ponto da cidade."</p>
-        <p>- Clovis</p>
-        
+        <ul aria-label="Lista de avaliações de pessoas usuárias sobre o hotel Mercure Pamplona.">
+          <li>
+            <p>"Tudo perfeito, desde a recepção, limpeza, café da manhã e estacionamento. recomento a qualquer um em passeio com família ou a trabalho. Não tenho o que me queixar, apenas recomendar. localização excelente."</p>
+            <p>- Leonardo</p>
+          </li>
+          <li>
+            <p>"O hotel está muito bem localizado em Pinheiros. Um dos melhores restaurantes de São Pulo está no mesmo quarteirão.
+              O tamanho do apartamento também é muito bom. Seria desejavel mais atenção aos detalhes."</p>
+            <p>- Robson</p>
+          </li>
+          <li>
+            <p>"Quarto espaçoso, cama confortável, bom espaço para acomodar o pet, café da manhã bom, funcionários muito bem receptivos, ducha ótima. A localização é ótima tem tudo que precisar a poucos metros de distância ou caminhando alguns minutinhos. Fácil para se deslocar p qualquer ponto da cidade."</p>
+            <p>- Clovis</p>
+          </li>
+        </ul>
       </section>
     </div>
 
     <div class="content-card">
-      <div class="image-grid">
-        <img src="./assets/sheraton-1.jpg" class="image-resize image-large" alt="fachada hotel sheraton WTC">
-        <img src="./assets/sheraton-2.jpg" class="image-resize" alt="piscina do hotel sheraton WTC">
-        <img src="./assets/sheraton-3.jpg" class="image-resize" alt="lobby do hotel sheraton WTC">
-        <img src="./assets/sheraton-4.jpg" class="image-resize" alt="quarto do hotel sheraton WTC">
-        <img src="./assets/sheraton-5.jpg" class="image-resize" alt="banheiro do hotel sheraton WTC">
+      <div class="image-grid"  role="figure" aria-label="Mosaico de fotos do hotel Sheraton WTC.">
+        <img src="./assets/sheraton-1.jpg" class="image-resize image-large" alt="Fachada hotel Sheraton WTC.">
+        <img src="./assets/sheraton-2.jpg" class="image-resize" alt="Piscina do hotel Sheraton WTC.">
+        <img src="./assets/sheraton-3.jpg" class="image-resize" alt="Lobby do hotel Sheraton WTC.">
+        <img src="./assets/sheraton-4.jpg" class="image-resize" alt="Quarto do hotel Sheraton WTC.">
+        <img src="./assets/sheraton-5.jpg" class="image-resize" alt="Banheiro do hotel Sheraton WTC.">
       </div>
       <section class="section-info">
-        <h1>Sheraton São Paulo WTC Hotel</h1>
+        <h2>Sheraton São Paulo WTC Hotel</h2>
         <h3>Av. das Nações Unidas, 12559 - Brooklin Novo, São Paulo - SP, 04578-903</h3>
         <p>
           Avaliação dos usuários:
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-regular fa-star"></i>
+          <figure aria-label="Avaliação de 4 de 5 estrelas para o hotel Sheraton WTC.">
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-regular fa-star"></span>
+          </figure>
         </p>
 
-        <a href="https://www.bluetree.com.br/hotel/blue-tree-premium-morumbi/">Visite o site</a>
+        <a aria-label="Link para página do hotel Sheraton WTC." href="https://www.marriott.com.br/hotels/travel/saosi-sheraton-sao-paulo-wtc-hotel/">Visite o site</a>
         <h3>Avaliações</h3>
 
-        <p>"Hotel excelente em São Paulo. Acomodações limpas, bem conservadas e aconchegantes. Fui acomodado em um quarto Executivo, com uma vista sensacional para Ponte Estaiada."</p>
-        <p>- Daniel</p>
-        
-        <p>"Um hotel que possui tudo dentro dele em termos de evento, culinária e até mesmo o shopping de decoração e arquitetura. Experiência única fica e ter a vista de São Paulo, quartos amplos, café da manhã excelente e equipe muito cordial como a rede já está acostumada!"</p>
-        <p>- Lidia</p>
-        
-        <p>"O serviço e a atenção é algo que não encontrei em muitos hotéis do mundo e viajo muito a trabalho. O tratamento de todos os funcionários do Sheraton foi incrível, qualquer preocupação e solicitação eles fizeram sem hesitação. Volto sem dúvidas!"</p>
-        <p>- Bernardo</p>
+        <ul aria-label="Lista de avaliações de pessoas usuárias sobre o hotel Sheraton WTC.">
+          <li>
+            <p>"Hotel excelente em São Paulo. Acomodações limpas, bem conservadas e aconchegantes. Fui acomodado em um quarto Executivo, com uma vista sensacional para Ponte Estaiada."</p>
+            <p>- Daniel</p>
+          </li>
+          <li>
+            <p>"Um hotel que possui tudo dentro dele em termos de evento, culinária e até mesmo o shopping de decoração e arquitetura. Experiência única fica e ter a vista de São Paulo, quartos amplos, café da manhã excelente e equipe muito cordial como a rede já está acostumada!"</p>
+            <p>- Lidia</p>
+          </li>
+          <li>
+            <p>"O serviço e a atenção é algo que não encontrei em muitos hotéis do mundo e viajo muito a trabalho. O tratamento de todos os funcionários do Sheraton foi incrível, qualquer preocupação e solicitação eles fizeram sem hesitação. Volto sem dúvidas!"</p>
+            <p>- Bernardo</p>
+          </li>
+        </ul>
       </section>
     </div>
 
     <div class="content-card">
-      <div class="image-grid">
-        <img src="./assets/bourbon-1.jpg" class="image-resize image-large" alt="fachada hotel bourbon Ibirapuera">
-        <img src="./assets/bourbon-2.jpg" class="image-resize" alt="piscina do hotel bourbon Ibirapuera">
-        <img src="./assets/bourbon-3.jpg" class="image-resize" alt="lobby do hotel bourbon Ibirapuera">
-        <img src="./assets/bourbon-4.jpg" class="image-resize" alt="quarto do hotel bourbon Ibirapuera">
-        <img src="./assets/bourbon-5.jpg" class="image-resize" alt="banheiro do hotel bourbon Ibirapuera">
+      <div class="image-grid"  role="figure" aria-label="Mosaico de fotos do hotel Bourbon Ibirapuera.">
+        <img src="./assets/bourbon-1.jpg" class="image-resize image-large" alt="Fachada hotel Bourbon Ibirapuera.">
+        <img src="./assets/bourbon-2.jpg" class="image-resize" alt="Piscina do hotel Bourbon Ibirapuera.">
+        <img src="./assets/bourbon-3.jpg" class="image-resize" alt="Lobby do hotel Bourbon Ibirapuera.">
+        <img src="./assets/bourbon-4.jpg" class="image-resize" alt="Quarto do hotel Bourbon Ibirapuera.">
+        <img src="./assets/bourbon-5.jpg" class="image-resize" alt="Banheiro do hotel Bourbon Ibirapuera.">
       </div>
       <section class="section-info">
-        <h1>Bourbon Convention Ibirapuera</h1>
+        <h2>Bourbon Convention Ibirapuera</h2>
         <h3>Av. Ibirapuera, 2927 - Ibirapuera, São Paulo - SP, 04029-200</h3>
         <p>
           Avaliação dos usuários:
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-regular fa-star"></i>
+          <figure aria-label="Avaliação de 4 de 5 estrelas para o hotel Bourbon Ibirapuera.">
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-regular fa-star"></span>
+          </figure>
         </p>
 
-        <a href="https://www.bluetree.com.br/hotel/blue-tree-premium-morumbi/">Visite o site</a>
+        <a aria-label="Link para página do hotel Bourbon Ibirapuera." href="https://book.omnibees.com/chain/1319/hotel/1902?q=1902&currencyId=16&lang=pt-BR">Visite o site</a>
         <h3>Avaliações</h3>
 
-        <p>"Um excelente recito pra se descansar, comer e curtir. Gostamos muito da localização, uma vez que amamos estar em Moema."</p>
-        <p>- Ygor</p>
-        
-        <p>"O quarto que eu fiquei tinha alguma infiltração, que causava um cheiro forte de mofo e já na minha última noite no hotel, identifiquei que o mofo estava no quadro e na cortina. Isso é deplorável, pra um hotel caro em pleno coração de São Paulo. Isso atacou a minha alergia, me causou dores de cabeça e dor de ouvido, péssima experiência. O café da manhã é maravilhoso, e a atenção dos staff também."</p>
-        <p>- Izabelle</p>
-        
-        <p>"Organizado, limpo, ótimas instalações, bom atendimento, café da manhã maravilhoso, aconchegante, confortável, todos bem atenciosos, comprometidos... Uma experiência completa e perfeita. Gratidão a todos!"</p>
-        <p>- Ana</p>
+        <ul aria-label="Lista de avaliações de pessoas usuárias sobre o hotel Bourbon Ibirapuera.">
+          <li>
+            <p>"Um excelente recito pra se descansar, comer e curtir. Gostamos muito da localização, uma vez que amamos estar em Moema."</p>
+            <p>- Ygor</p>
+          </li>
+          <li>
+            <p>"O quarto que eu fiquei tinha alguma infiltração, que causava um cheiro forte de mofo e já na minha última noite no hotel, identifiquei que o mofo estava no quadro e na cortina. Isso é deplorável, pra um hotel caro em pleno coração de São Paulo. Isso atacou a minha alergia, me causou dores de cabeça e dor de ouvido, péssima experiência. O café da manhã é maravilhoso, e a atenção dos staff também."</p>
+            <p>- Izabelle</p>
+          </li>
+          <li>
+            <p>"Organizado, limpo, ótimas instalações, bom atendimento, café da manhã maravilhoso, aconchegante, confortável, todos bem atenciosos, comprometidos... Uma experiência completa e perfeita. Gratidão a todos!"</p>
+            <p>- Ana</p>
+          </li>
+        </ul>
       </section>
     </div>
 
     <div class="content-card">
-      <div class="image-grid">
-        <img src="./assets/renaissance-1.jpg" class="image-resize image-large" alt="fachada hotel renaissance">
-        <img src="./assets/renaissance-2.jpg" class="image-resize" alt="lobby do hotel renaissance">
-        <img src="./assets/renaissance-3.jpg" class="image-resize" alt="quarto do hotel renaissance">
-        <img src="./assets/renaissance-4.jpg" class="image-resize" alt="salão do hotel renaissance">
-        <img src="./assets/renaissance-5.jpg" class="image-resize" alt="banheiro do hotel renaissance">
+      <div class="image-grid"  role="figure" aria-label="Mosaico de fotos do hotel Renaissance.">
+        <img src="./assets/renaissance-1.jpg" class="image-resize image-large" alt="Fachada hotel Renaissance.">
+        <img src="./assets/renaissance-2.jpg" class="image-resize" alt="Lobby do hotel Renaissance.">
+        <img src="./assets/renaissance-3.jpg" class="image-resize" alt="Quarto do hotel Renaissance.">
+        <img src="./assets/renaissance-4.jpg" class="image-resize" alt="Salão do hotel Renaissance.">
+        <img src="./assets/renaissance-5.jpg" class="image-resize" alt="Banheiro do hotel Renaissance.">
       </div>
       <section class="section-info">
-        <h1>Renaissance São Paulo Hotel</h1>
+        <h2>Renaissance São Paulo Hotel</h2>
         <h3>Alameda Santos, 2233 - Jardim Paulista, São Paulo - SP, 01419-002</h3>
         <p>
           Avaliação dos usuários:
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
+          <figure aria-label="Avaliação de 5 de 5 estrelas para o hotel Renaissance.">
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-solid fa-star"></span>
+            <span class="fa-solid fa-star"></span>
+          </figure>
         </p>
 
-        <a href="https://www.bluetree.com.br/hotel/blue-tree-premium-morumbi/">Visite o site</a>
+        <a aria-label="Link para página do hotel Renaissance." href="https://www.marriott.com.br/hotels/travel/saobr-renaissance-sao-paulo-hotel/">Visite o site</a>
         <h3>Avaliações</h3>
 
-        <p>"Fomos tomar café da manhã no hotel. A experiência foi excelente, muita variedade e a frutas pareciam selecionadas de tão boas. O atendimento feito pelo garçom Renato foi muito atencioso. Pela ambientação e pela experiência o preço foi ok, super recomendo!"</p>
-        <p>- Dereck</p>
-        
-        <p>"Staff atencioso, prestativo... Bar e restaurante do lobby muito bons. Ótima localização. Café da manhã muito bom. Pontos negativos: quarto um pouco apertado e banho. O banho precisa melhorar. A ducha nos fazia correr atrás da água. Ou: ducha incompatível com o padrão pretendido pelo hotel e esperado pelo hóspede. Banho fraco mesmo."</p>
-        <p>- Lapin</p>
-        
-        <p>"Não poderríamos ter feito melhor escolha para celebrar nossas Bodas. 04 dias sendo acolhidos com extremo profissionalismo e empatia genuína. Até breve!"</p>
-        <p>- Richard</p>
+        <ul aria-label="Lista de avaliações de pessoas usuárias sobre o hotel Renaissance.">
+          <li>
+            <p>"Fomos tomar café da manhã no hotel. A experiência foi excelente, muita variedade e a frutas pareciam selecionadas de tão boas. O atendimento feito pelo garçom Renato foi muito atencioso. Pela ambientação e pela experiência o preço foi ok, super recomendo!"</p>
+            <p>- Dereck</p>
+          </li>
+          <li>
+            <p>"Staff atencioso, prestativo... Bar e restaurante do lobby muito bons. Ótima localização. Café da manhã muito bom. Pontos negativos: quarto um pouco apertado e banho. O banho precisa melhorar. A ducha nos fazia correr atrás da água. Ou: ducha incompatível com o padrão pretendido pelo hotel e esperado pelo hóspede. Banho fraco mesmo."</p>
+            <p>- Lapin</p>
+          </li>
+          <li>
+            <p>"Não poderríamos ter feito melhor escolha para celebrar nossas Bodas. 04 dias sendo acolhidos com extremo profissionalismo e empatia genuína. Até breve!"</p>
+            <p>- Richard</p>
+          </li>
+        </ul>
       </section>
     </div>
 
